@@ -1,0 +1,91 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: #fefaf5;
+    color: #111;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #a87d2d;
+}
+nav a {
+    margin: 0 1rem;
+    color: #333;
+    text-decoration: none;
+}
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(to bottom, #fff8ee, #fefaf5);
+}
+.hero h1 {
+    font-size: 2rem;
+    color: #222;
+}
+.hero h2 {
+    color: #555;
+    margin-top: 0.5rem;
+}
+.cta-buttons button {
+    margin: 1rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: none;
+    background: #d4a249;
+    color: #fff;
+    cursor: pointer;
+}
+.cta-buttons .outline {
+    background: transparent;
+    border: 2px solid #d4a249;
+    color: #d4a249;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background: #fff;
+}
+.feature {
+    flex: 1 1 200px;
+    max-width: 220px;
+    margin: 1rem;
+    text-align: center;
+}
+.icon {
+    font-size: 2rem;
+}
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 2rem;
+    background: #fff8ee;
+}
+.calligraphy {
+    font-size: 3rem;
+    color: #c3953f;
+    margin-right: 1rem;
+}
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: #f2ede7;
+    font-size: 0.9rem;
+    color: #333;
+}
+footer .logos span {
+    margin: 0 1rem;
+    display: inline-block;
+}
